@@ -1,8 +1,8 @@
 even_numbers = []
  
-for x in range(1,10):
-    if x % 2 == 0:
-        even_numbers.append(x)
+for n in range(1,10):
+    if n % 2 == 0:
+        even_numbers.append(n)
  
-for x in even_numbers:
-	print(x)
+for n in even_numbers:
+	print(n)
